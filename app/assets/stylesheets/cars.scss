@@ -1,0 +1,75 @@
+// Place all the styles related to the cars controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+// 一覧ページ
+.cars {
+  overflow: scroll;
+  height: 80vh;
+  width: 100vw;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.car-list-1 {
+  background-color: #253141;
+  color: white;
+  margin: 10px;
+  width: 200px;
+  height: 200px;
+}
+
+.car-table a{
+  color: deepskyblue;
+  text-decoration: none;
+  font-size: 30px;
+}
+// 登録ページ
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15vh;
+}
+
+.lavel {
+  font-size: 3vh;
+  color: rgb(255, 255, 255);
+  margin-top: 2vw;
+}
+
+.text-input {
+  height: 4vh;
+  width: 15vw;
+  margin: 0 2vw;
+}
+
+
+.date-select {
+  height: 4vh;
+  width: 13vw;
+  margin: 0 2vw;
+}
+
+.btn {
+  margin-top: 3vw;
+}
+
+// 詳細ページ
+.car-name{
+  color:  rgb(21, 22, 24);
+  font-size: 20px;
+  padding: 14px;
+}
+
+.table-col1{
+  padding: 4px 0;
+  font-size: 3vh;
+}
+
+.table-col2{
+  height: 4vh;
+  width: 15vw;
+  margin: 2vh 2vw;
+}

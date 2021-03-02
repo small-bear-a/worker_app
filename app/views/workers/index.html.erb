@@ -1,0 +1,32 @@
+
+<div class = 'main'>
+ <div class="side-bar">
+    <div class="sides">
+       <% @users.each do |user| %>
+        <div class="side">
+          <div class="side-name">
+            <%= link_to user.name, user_path(user.id)%> 
+          </div>
+        </div>
+      <% end %> 
+    </div>  
+  </div>
+  <div class='plans'>
+    <h2 class = plans-title>納車予定日</h2>
+    <div class= 'plans-data'>
+      <% @week_days.each do |day| %>
+        <div class='item'>
+          <div class='date'>
+            <%= day[:month] %>/<%= day[:date] %><%= day[:wday] %>
+          </div>
+          <ul class='content'>
+            <% if day[:car].length != 0 %>
+              <% day[:car].each do |car| %>
+                <li class='plan-list'>・<%= link_to car.car, car_path(car.id) %></li>
+              <% end %>
+            <% end %>
+          </ul>
+        </div>
+      <% end %>
+    </div>
+</div>

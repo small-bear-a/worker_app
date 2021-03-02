@@ -1,0 +1,27 @@
+<div class="cars">
+  <% @cars.each do |car| %>
+    <div class="car-list">
+      <table border="1" class = "car-list-1">
+        <tbody class = "car-list-2" >
+          <tr>
+            <td colspan="2" class="table-col2 car-table"> <%= link_to car.car, car_path(car.id) %> </td>
+          </tr>
+          <tr>
+            <th class="table-col1">No：</th>
+            <td class="table-col2"><%= car.number %></td>
+          </tr>
+          <tr>
+            <th class="table-col1">お客様：</th>
+            <td class="table-col2"><%= car.name %></td>
+          </tr> 
+          <tr>
+            <th class="table-col1">納期：</th>
+            <% if car.date.present? %>
+              <td class="table-col2"><%= car.date %></td>
+            <% end %>
+          </tr>
+        </tbody>  
+      </table>
+    </div>
+  <% end %>
+</div>
