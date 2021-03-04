@@ -4,31 +4,28 @@
       <div class="user-name">
         <%= @user.name%>
       </div>
-      <% if current_user.id == @user.id %>
-        <%= link_to 'ログアウト', destroy_user_session_path, method: :delete %>
-      <% end %>
-
-      <table class="table">
-        <tbody>
-          <tr>
-            <th class="table__col1">名前</th>
-            <td class="table__col2"><%= @user.name %></td>
-          </tr>
-          <tr>
-            <th class="table__col1">hoge</th>
-            <td class="table__col2"><%= :hoge %></td>
-          </tr>
-          <tr>
-            <th class="table__col1">hoge</th>
-            <td class="table__col2"><%= :hoge %></td>
-          </tr>
-          <tr>
-            <th class="table__col1">hoge/th>
-            <td class="table__col2"><%= :hoge %></td>
-          </tr>
-        </tbody>
-      </table>
-  
+        <table border = "1" class="table">
+          <tbody>
+            <tr>
+              <th class="table_1">hoge</th>
+              
+              <td class="table_2"><%= :hoge %></td>
+           
+            </tr>
+            <tr>
+              <th class="table_1">hoge</th>
+              <td class="table_2"><%= :hoge %></td>
+            </tr>
+            <tr>
+              <th class="table_1">hoge </th>
+              <td class="table_2"><%= :hoge %></td>
+            </tr>
+          </tbody>
+        </table>
+      <div class= "log-in">
+        <% if current_user.id == @user.id %>
+          <%= link_to 'ログアウト', destroy_user_session_path, method: :delete %>
+        <% end %>
       </div>
     </div>
   </div>
