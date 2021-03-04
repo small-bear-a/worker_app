@@ -4,8 +4,7 @@
 </div>
 
 <div>
-  <%= form_with model: @car, method: :put, local: true  do |f| %>
-    <table class="table">
+    <table border = "1" class="table">
       <tbody>
         <tr>
           <th class="table-col1">車両番号：</th>
@@ -21,8 +20,6 @@
           <th class="table-col1">フロント担当者：</th>
           <% if @car.front.present? %>
             <td class="table-col2"><%= @car.front.name %></td>
-          <% else %>
-            <td><%= f.collection_select(:front_id, User.all, :id, :name,{prompt: "担当者を選択してください"},  {class: ' table-col2'}) %> </td>
           <% end %>
         </tr>
                   
@@ -30,8 +27,6 @@
           <th class="table-col1">板金担当者：</th>
           <% if @car.body.present? %>
             <td class="table-col2"><%= @car.body.name %></td>
-          <% else %>
-            <td><%= f.collection_select(:body_id, User.all, :id, :name,{prompt: "担当者を選択してください"},  {class: ' table-col2'}) %> </td>
           <% end %>
         </tr>
                
@@ -39,8 +34,6 @@
           <th class="table-col1">塗装担当者：</th>
           <% if @car.paint.present? %>
             <td class="table-col2"><%= @car.paint.name %></td>
-          <% else %>
-             <td><%= f.collection_select(:paint_id, User.all, :id, :name,{prompt: "担当者を選択してください"},  {class: ' table-col2'}) %> </td>
           <% end %>
         </tr>
 
@@ -59,13 +52,13 @@
         </tr> 
       </tbody>
     </table>
-    <div class= 'btn'>
-      <%= f.submit '更新する'%>
-      <%= link_to "データ編集", car_path(@car.id), method: :delete %>
-      <%= link_to "データ削除", car_path(@car.id), method: :delete %>
-    </div>
-  <% end %>
-  <div class = 'btn'>
-  </div>
+    <div class = "btns">
+      <div class = "btn">
+        <%= button_to "データ編集", edit_car_path(@car.id), method: :get %>
+      </div>
+      <div class = 'btn'>
+        <%= button_to "データ削除", car_path(@car.id), method: :delete %>
+     </div>
+     </div>
 </div>
     

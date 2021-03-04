@@ -52,9 +52,15 @@
   margin: 0 2vw;
 }
 
-.btn {
-  margin-top: 3vw;
+.heads-up{
+  color: red;
+  font-size: 2vh;
 }
+.btns {
+  display: flex;
+  margin: 2px 0 0 5px;
+}
+
 
 // 詳細ページ
 .car-name{
