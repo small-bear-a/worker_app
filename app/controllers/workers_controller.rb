@@ -1,6 +1,5 @@
 class WorkersController < ApplicationController
   def index
-    @users = User.all
     get_week
   end
 

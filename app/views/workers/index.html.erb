@@ -2,7 +2,7 @@
 <div class = 'main'>
  <div class="side-bar">
     <div class="sides">
-       <% @users.each do |user| %>
+       <% User.where.not(id: current_user.id).each do |user| %>
         <div class="side">
           <div class="side-name">
             <%= link_to user.name, user_path(user.id)%> 
