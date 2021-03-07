@@ -29,7 +29,8 @@ __イメージ__
 <img src="https://user-images.githubusercontent.com/77313049/110246775-4d205880-7fac-11eb-8c4f-6f02d9ebbb6a.gif" width="500px">
 
 <br>
-<br>
+<br>  
+
 __もしくは__  
 <img width="300" alt="一覧ページ" src="https://user-images.githubusercontent.com/77313049/110241748-ba74bf00-7f95-11eb-9cc8-9c88d1b90d52.png">  
 1.ヘッダー部分の車両情報をクリック  
@@ -40,6 +41,11 @@ __もしくは__
 <img width="300" alt="自動車詳細ページ" src="https://user-images.githubusercontent.com/77313049/110243668-b6996a80-7f9e-11eb-9ffe-5dcbb0b0126e.png">  
 3.データ編集ページをクリックし情報を編集  
 <br>
+
+__イメージ__  
+<img src="https://user-images.githubusercontent.com/77313049/110247356-38918f80-7faf-11eb-8569-cfa1b16b7f80.gif" width="500px">  
+<img src="https://user-images.githubusercontent.com/77313049/110247359-40e9ca80-7faf-11eb-94e6-d11de90837cb.gif" width="500px">  
+<img src="https://user-images.githubusercontent.com/77313049/110247365-49420580-7faf-11eb-9799-fbfec6657186.gif" width="500px">
 
 #### アカウント情報
 ・ユーザー名： テスト  
