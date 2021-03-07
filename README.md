@@ -27,13 +27,13 @@ __予定納車ページに反映させるには__
 <br>
 __もしくは__  
 <img width="300" alt="一覧ページ" src="https://user-images.githubusercontent.com/77313049/110241748-ba74bf00-7f95-11eb-9cc8-9c88d1b90d52.png">  
-&nbsp; ・1.ヘッダー部分の車両情報をクリック  
+1.ヘッダー部分の車両情報をクリック  
 <br>
 <img width="300" alt="一覧表示ページ" src="https://user-images.githubusercontent.com/77313049/110241771-e6904000-7f95-11eb-999d-6883ffa09cc8.png">  
-&nbsp; &nbsp; &nbsp; 2.一覧情報から自動車名をクリックして、詳細ページへ遷移  
+2.一覧情報から自動車名をクリックして、詳細ページへ遷移  
 <br>
 <img width="300" alt="自動車詳細ページ" src="https://user-images.githubusercontent.com/77313049/110243668-b6996a80-7f9e-11eb-9ffe-5dcbb0b0126e.png">  
-&nbsp; &nbsp; &nbsp; 3.データ編集ページをクリックし情報を編集  
+3.データ編集ページをクリックし情報を編集  
 <br>
 #### アカウント情報
 ・ユーザー名： テスト  
@@ -77,16 +77,16 @@ __もしくは__
 
 ## cars テーブル
 
-| Column | Type       | Options                        |
-| -------| ---------- | ------------------------------ |
-| car    | string     | null: false                    |
-| number | text       | null: false                    |
-| name   | integer    | null: false                    |
-| front  | references | foreign_key: {to_table: :users |
-| body   | references | foreign_key: {to_table: :users |
-| paint  | references | foreign_key: {to_teble: :users |
-| price  | integer    |                                |
-| date   | date       |                    |
+| Column | Type       | Options                         |
+| -------| ---------- | ------------------------------- |
+| car    | string     | null: false                     |
+| number | text       | null: false                     |
+| name   | integer    | null: false                     |
+| front  | references | foreign_key: {to_table: :users} |
+| body   | references | foreign_key: {to_table: :users} |
+| paint  | references | foreign_key: {to_teble: :users} |
+| price  | integer    |                                 |
+| date   | date       |                                 |
 
 
 ### Association
