@@ -23,11 +23,32 @@ __車両登録__
 __予定納車ページに反映させるには__  
 <img width="300" alt="登録ページ１" src="https://user-images.githubusercontent.com/77313049/110242980-c2cff880-7f9b-11eb-8fab-eecb34c5df59.png">  
 &nbsp;・登録時に日付を指定する  
-
 <br>
+<br>
+__もしくは__  
+<img width="300" alt="一覧ページ" src="https://user-images.githubusercontent.com/77313049/110241748-ba74bf00-7f95-11eb-9cc8-9c88d1b90d52.png">  
 &nbsp; ・1.ヘッダー部分の車両情報をクリック  
+<br>
+<img width="300" alt="一覧表示ページ" src="https://user-images.githubusercontent.com/77313049/110241771-e6904000-7f95-11eb-999d-6883ffa09cc8.png">  
 &nbsp; &nbsp; &nbsp; 2.一覧情報から自動車名をクリックして、詳細ページへ遷移  
+<br>
+<img width="300" alt="自動車詳細ページ" src="https://user-images.githubusercontent.com/77313049/110243668-b6996a80-7f9e-11eb-9ffe-5dcbb0b0126e.png">  
 &nbsp; &nbsp; &nbsp; 3.データ編集ページをクリックし情報を編集  
+<br>
+#### アカウント情報
+・ユーザー名： テスト  
+・email: test@test  
+・password: 123456  
+  
+#### アカウント情報２ 
+
+・ユーザー名： サンプル  
+・email: sample@sample  
+・password: 123456  
+<br>
+###工夫したポイント  
+・文字をクリックすればそのページに遷移できるようにlink_toの多様をして使い勝手の良い作りをイメージしながら作成した部分(感覚的に解りやすいように)  
+・ページの遷移はどの段階で行えば利用者は解りやすいかなどを考えながら制作！
 
 ### 【実装予定の機能】    
 ・ユーザーの担当作業の予定をユーザーページで表示  
@@ -39,16 +60,7 @@ __予定納車ページに反映させるには__
 ・HTML/CSS  
 ・VS Code
 <br>
-#### アカウント情報
-・ユーザー名： テスト  
-・email: test@test  
-・password: 123456  
-  
-#### アカウント情報２ 
 
-・ユーザー名： サンプル  
-・email: sample@sample  
-・password: 123456
 # テーブル設計
 
 ## users テーブル
