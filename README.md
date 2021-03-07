@@ -24,6 +24,11 @@ __予定納車ページに反映させるには__
 <img width="300" alt="登録ページ１" src="https://user-images.githubusercontent.com/77313049/110242980-c2cff880-7f9b-11eb-8fab-eecb34c5df59.png">  
 &nbsp;・登録時に日付を指定する  
 <br>
+__イメージ__  
+<img src="https://user-images.githubusercontent.com/77313049/110246438-f403f500-7faa-11eb-8aa0-7745fcf21918.gif" width="500px">  
+<img src="https://user-images.githubusercontent.com/77313049/110246775-4d205880-7fac-11eb-8c4f-6f02d9ebbb6a.gif" width="500px">
+
+<br>
 <br>
 __もしくは__  
 <img width="300" alt="一覧ページ" src="https://user-images.githubusercontent.com/77313049/110241748-ba74bf00-7f95-11eb-9cc8-9c88d1b90d52.png">  
@@ -35,6 +40,7 @@ __もしくは__
 <img width="300" alt="自動車詳細ページ" src="https://user-images.githubusercontent.com/77313049/110243668-b6996a80-7f9e-11eb-9ffe-5dcbb0b0126e.png">  
 3.データ編集ページをクリックし情報を編集  
 <br>
+
 #### アカウント情報
 ・ユーザー名： テスト  
 ・email: test@test  
