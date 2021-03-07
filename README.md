@@ -72,7 +72,7 @@ __もしくは__
 | password | string  | null: false |
 
 ### Association
-- has_many :car
+- has_many :cars
 
 
 ## cars テーブル
