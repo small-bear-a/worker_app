@@ -45,8 +45,9 @@ __予定納車ページに反映させるには__
 __イメージ__  
 <img src="https://user-images.githubusercontent.com/77313049/110246438-f403f500-7faa-11eb-8aa0-7745fcf21918.gif" width="500px">  
 <img src="https://user-images.githubusercontent.com/77313049/110246775-4d205880-7fac-11eb-8c4f-6f02d9ebbb6a.gif" width="500px">  
+<br>
+<br>
 ---------------------------------------------------------------------------------------------------------------------------------------------------
-
 <br>
 <br>  
 
@@ -66,8 +67,9 @@ __イメージ__
 <img src="https://user-images.githubusercontent.com/77313049/110247356-38918f80-7faf-11eb-8569-cfa1b16b7f80.gif" width="500px">  
 <img src="https://user-images.githubusercontent.com/77313049/110247359-40e9ca80-7faf-11eb-94e6-d11de90837cb.gif" width="500px">  
 <img src="https://user-images.githubusercontent.com/77313049/110247365-49420580-7faf-11eb-9799-fbfec6657186.gif" width="500px">  
+<br>
+<br>
 ---------------------------------------------------------------------------------------------------------------------------------------------------
-
 <br>
 <br>
 
