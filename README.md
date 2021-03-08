@@ -30,18 +30,23 @@
 <br>
 
 ### 【利用方法】  
+
 __車両登録__  
+
 <img width="300" alt="一覧ページ" src="https://user-images.githubusercontent.com/77313049/110241748-ba74bf00-7f95-11eb-9cc8-9c88d1b90d52.png">  
-&nbsp;ヘッダー部分から「車両情報を記入」をクリック  
+&nbsp;・ヘッダー部分から「車両情報を記入」をクリック  
 <br>
 <img width="300" alt="登録ページ" src="https://user-images.githubusercontent.com/77313049/110241754-c791ae00-7f95-11eb-95fb-a78409556d92.png">  
-&nbsp;必須部分を記述を行えば登録完了です。（納車の日程を指定しなければ納車予定ページへ反映されない）  
+&nbsp;・必須部分を記述を行えば登録完了です。（納車の日程を指定しなければ納車予定ページへ反映されない）  
 <br>
 <br>
+
 __予定納車ページに反映させるには__  
+
 <img width="300" alt="登録ページ１" src="https://user-images.githubusercontent.com/77313049/110242980-c2cff880-7f9b-11eb-8fab-eecb34c5df59.png">  
 &nbsp;・登録時に日付を指定(一週間以内を指定すると表示されるようになります。)  
 <br>
+
 __イメージ__  
 <img src="https://user-images.githubusercontent.com/77313049/110246438-f403f500-7faa-11eb-8aa0-7745fcf21918.gif" width="500px">  
 <img src="https://user-images.githubusercontent.com/77313049/110246775-4d205880-7fac-11eb-8c4f-6f02d9ebbb6a.gif" width="500px">  
