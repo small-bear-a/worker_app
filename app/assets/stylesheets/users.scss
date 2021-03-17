@@ -2,24 +2,34 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 .user-name{
-    color:  skyblue;
+    
     font-size: 40px;
     padding: 14px;
   }
 
-  .table{
+  .user_table{
+    background-color: #253141;
     height: 200px;
-    width: 300px;
-    margin-bottom: 30px;
+    width: 500px;
+    margin: 0 0 30px 50px;
+  }
+
+  .table_1{
+    color:  skyblue;
+    width: 200px;
   }
   
-  .table_2{
+  .table_2 a{
     color: skyblue;
-    
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+  .table_2 {
+    color: skyblue;
   }
 
   .log-in a{
-    
     text-decoration: none;
     color: blue;
   }

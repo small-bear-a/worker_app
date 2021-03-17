@@ -24,13 +24,13 @@
     <%= f.number_field :price, class: 'text-input' %>
 
     <%= f.label :受付者, class: 'lavel' %>
-    <%= f.collection_select(:front_id, User.all, :id, :name, {prompt: "担当者を選択してください"},  {class: ' text-input'}) %>
+    <%= f.collection_select(:front_id, User.all, :id, :name, {prompt: "担当者を選択してください"}, {class: ' text-input'}) %>
 
     <%= f.label :鈑金者, class: 'lavel' %>
-    <%= f.collection_select(:body_id, User.all, :id, :name,{prompt: "担当者を選択してください"},  {class: ' text-input'}) %>
+    <%= f.collection_select(:body_id, User.all, :id, :name,{prompt: "担当者を選択してください"}, {class: ' text-input'}) %>
     
     <%= f.label :塗装者, class: 'lavel' %>
-    <%= f.collection_select(:paint_id, User.all, :id, :name,{prompt: "担当者を選択してください"},  {class: ' text-input'}) %>
+    <%= f.collection_select(:paint_id, User.all, :id, :name,{prompt: "担当者を選択してください"}, {class: ' text-input'}) %>
     
     <div class = 'btn'>
       <%= f.submit '保存' %>

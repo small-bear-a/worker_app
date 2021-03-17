@@ -4,48 +4,48 @@
 </div>
 
 <div>
-    <table border = "1" class="table">
+    <table border = "1" class="car-table">
       <tbody>
         <tr>
-          <th class="table-col1">車両番号：</th>
+          <th class="table-col1">車両番号</th>
           <td class="table-col2"><%= @car.number %></td>
          </tr>
  
         <tr>
-          <th class="table-col1">お客様名：</th>
+          <th class="table-col1">お客様名</th>
           <td class="table-col2"><%= @car.name %></td>
         </tr>  
            
         <tr>
-          <th class="table-col1">フロント担当者：</th>
+          <th class="table-col1">フロント担当者</th>
           <% if @car.front.present? %>
-            <td class="table-col2"><%= @car.front.name %></td>
+            <td class="table-col2"><%= link_to @car.front.name, user_path(@car.front_id) %></td>
           <% end %>
         </tr>
                   
         <tr>
-          <th class="table-col1">板金担当者：</th>
+          <th class="table-col1">板金担当者</th>
           <% if @car.body.present? %>
-            <td class="table-col2"><%= @car.body.name %></td>
+            <td class="table-col2"><%= link_to @car.body.name, user_path(@car.body_id) %></td>
           <% end %>
         </tr>
                
         <tr>
-          <th class="table-col1">塗装担当者：</th>
+          <th class="table-col1">塗装担当者</th>
           <% if @car.paint.present? %>
-            <td class="table-col2"><%= @car.paint.name %></td>
+            <td class="table-col2"><%= link_to @car.paint.name, user_path(@car.paint_id) %></td>
           <% end %>
         </tr>
 
         <tr>
-           <th class="table-col1">納期：</th>
+           <th class="table-col1">納期</th>
            <% if @car.date.present? %>
               <td class="table-col2"><%= @car.date %></td>
            <% end %>
         </tr>
 
         <tr>
-          <th class="table-col1">金額：</th>
+          <th class="table-col1">金額</th>
           <% if @car.price.present? %>
             <td class="table-col2"><b>¥</b> <%= @car.price %></td>
           <% end %>
@@ -54,10 +54,10 @@
     </table>
     <div class = "btns">
       <div class = "btn">
-        <%= button_to "データ編集", edit_car_path(@car.id), method: :get %>
+        <%= link_to "データ編集", edit_car_path(@car.id), method: :get %>
       </div>
       <div class = 'btn'>
-        <%= button_to "データ削除", car_path(@car.id), method: :delete %>
+        <%= link_to "データ削除", car_path(@car.id), method: :delete %>
      </div>
      </div>
 </div>

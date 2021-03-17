@@ -4,12 +4,20 @@
       <div class="user-name">
         <%= @user.name%>
       </div>
-        <table border = "1" class="table">
+        <table border = "1" class="user_table">
           <tbody>
             <tr>
-              <th class="table_1">hoge</th>
-              
-              <td class="table_2"><%= :hoge %></td>
+              <th class="table_1">本日の納車予定の<br>担当した車両</th>
+              <td class="table_2">
+              <% @cars.each do |car| %>
+                <% if @user.id == car.front_id || @user.id == car.body_id || @user.id == car.paint_id%>
+                  <% if Date.today == car.date %>
+                    <%= link_to car.car, car_path(car.id)%>
+                  <% end %>
+                <%end %>
+              <% end %>
+              </td>
+
            
             </tr>
             <tr>

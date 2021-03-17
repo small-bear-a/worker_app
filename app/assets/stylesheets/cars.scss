@@ -19,11 +19,13 @@
   height: 200px;
 }
 
-.car-table a{
+.car--table a{
   color: deepskyblue;
   text-decoration: none;
   font-size: 30px;
 }
+
+
 // 登録ページ
 .form {
   display: flex;
@@ -39,43 +41,56 @@
   margin-top: 2vw;
 }
 
-.text-input {
-  height: 4vh;
-  width: 15vw;
-  margin: 0 2vw;
-}
-
-
-.date-select {
-  height: 4vh;
-  width: 13vw;
-  margin: 0 2vw;
-}
-
 .heads-up{
   color: red;
   font-size: 2vh;
 }
-.btns {
-  display: flex;
-  margin: 2px 0 0 5px;
+
+.text-input {
+  height: 4vh;
+  width: 20vw;
+  margin-bottom: 10px;
 }
 
 
 // 詳細ページ
 .car-name{
   color:  rgb(21, 22, 24);
-  font-size: 20px;
+  font-size: 40px;
   padding: 14px;
 }
 
+.car-table{
+  background-color: #253141;
+  width: 500px;
+}
+
 .table-col1{
-  padding: 4px 0;
+  color: skyblue;
   font-size: 3vh;
 }
 
 .table-col2{
+  color: skyblue;
+  font-size: 3vh;
   height: 4vh;
   width: 15vw;
-  margin: 2vh 2vw;
+  padding: 10px 10px;
+}
+
+.table-col2 a{
+  color: skyblue;
+  font-size: 3vh;
+  text-decoration: none;
+}
+
+.btns{
+  display: flex;
+  padding-top:10px;
+}
+
+.btn a {
+  color: blue;
+  padding: 20px;
+  text-decoration: none;
 }
