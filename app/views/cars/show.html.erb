@@ -19,21 +19,36 @@
         <tr>
           <th class="table-col1">フロント担当者</th>
           <% if @car.front.present? %>
-            <td class="table-col2"><%= link_to @car.front.name, user_path(@car.front_id) %></td>
+            <td class="table-col2">
+              <% if @car.front_date.present? %>
+                <%= @car.front_date.month %>/<%= @car.front_date.day %>
+              <% end %>
+              <%= link_to @car.front.name, user_path(@car.front_id) %>
+            </td>
           <% end %>
         </tr>
                   
         <tr>
           <th class="table-col1">板金担当者</th>
           <% if @car.body.present? %>
-            <td class="table-col2"><%= link_to @car.body.name, user_path(@car.body_id) %></td>
+            <td class="table-col2">
+              <% if @car.body_date.present? %>
+                <%= @car.body_date.month %>/<%= @car.body_date.day %>
+              <% end %>
+              <%= link_to @car.body.name, user_path(@car.body_id) %>
+            </td>
           <% end %>
         </tr>
                
         <tr>
           <th class="table-col1">塗装担当者</th>
           <% if @car.paint.present? %>
-            <td class="table-col2"><%= link_to @car.paint.name, user_path(@car.paint_id) %></td>
+            <td class="table-col2">
+              <% if @car.paint_date.present? %>
+                <%= @car.paint_date.month %>/<%= @car.paint_date.day %>
+              <% end %>
+              <%= link_to @car.paint.name, user_path(@car.paint_id) %>
+            </td>
           <% end %>
         </tr>
 

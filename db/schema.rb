@@ -16,8 +16,11 @@ ActiveRecord::Schema.define(version: 2021_02_25_143554) do
     t.string "car", null: false
     t.string "name", null: false
     t.string "number", null: false
+    t.date "front_date"
     t.bigint "front_id"
+    t.date "body_date"
     t.bigint "body_id"
+    t.date "paint_date"
     t.bigint "paint_id"
     t.integer "price"
     t.date "date"

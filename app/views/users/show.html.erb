@@ -21,12 +21,20 @@
            
             </tr>
             <tr>
-              <th class="table_1">hoge</th>
-              <td class="table_2"><%= :hoge %></td>
+              <th colspan="2" class="table_1"></th>
+              
             </tr>
             <tr>
-              <th class="table_1">hoge </th>
-              <td class="table_2"><%= :hoge %></td>
+              <th class="table_1">本日作業予定 </th>
+              <td class="table_2">
+              <% @cars.each do |car| %>
+                <% if @user.id == car.front_id || @user.id == car.body_id || @user.id == car.paint_id%>
+                  <% if Date.today == car.front_date || Date.today == car.body_date || Date.today == car.body_date %>
+                    <%= link_to car.car, car_path(car.id)%>
+                  <% end %>
+                <%end %>
+              <% end %>
+              </td>
             </tr>
           </tbody>
         </table>

@@ -17,7 +17,7 @@
           <tr>
             <th class="table-col1">納期：</th>
             <% if car.date.present? %>
-              <td class="table-col2"><%= car.date %></td>
+              <td class="table-col2"><%= car.date.month %>/<%= car.date.day %></td>
             <% end %>
           </tr>
         </tbody>  
