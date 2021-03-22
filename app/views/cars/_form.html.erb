@@ -35,7 +35,7 @@
     
     <%= f.label :塗装者, class: 'lavel' %>
      <div>着工予定</div>
-    <%= f.date_field :front_date %>
+    <%= f.date_field :paint_date %>
     <%= f.collection_select(:paint_id, User.all, :id, :name,{prompt: "担当者を選択してください"}, {class: ' text-input'}) %>
     
     <div class = 'btn'>
