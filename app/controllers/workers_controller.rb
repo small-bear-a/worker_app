@@ -1,6 +1,7 @@
 class WorkersController < ApplicationController
   def index
     get_week
+    @cars = Car.all
   end
 
   private

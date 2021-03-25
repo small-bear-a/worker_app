@@ -33,6 +33,13 @@
 
 // 予定情報
 
+  .price {
+    color: skyblue;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+  }
+
 .plans {
   height: 80vh;
   width: calc(100vw - 300px);
